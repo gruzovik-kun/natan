@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Три самых влиятельных лидера 8-го «А» </title>
+    <meta name="description" content="Статья Замотаева Артёма: Всем привет. Сегодня мы продолжаем знакомить вас с самыми влиятельными фигурами 8-го «А».">
+    <style>
+        /* Базовые переменные (светлая тема) */
+        :root {
+            --zenColorBgPrimary: #fff;
+            --zenColorBgSecondary: #eff0f2;
+            --zenColorTextPrimary: rgba(6, 6, 15, 0.87);
+            --zenColorTextSecondary: rgba(6, 6, 15, 0.6);
+            --zenColorTextTertiary: rgba(6, 6, 15, 0.38);
+            --zenColorStrokePrimary: rgba(6, 6, 15, 0.25);
+            --zenColorIconTertiary: rgba(6, 6, 15, 0.38);
+            --dzen-font-family: -apple-system, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", "Helvetica", roboto, arial, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--dzen-font-family);
+            background-color: var(--zenColorBgPrimary);
+            color: var(--zenColorTextPrimary);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Контейнер статьи */
+        .article-container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 20px 24px 40px;
+        }
+
+        /* Блок автора */
+        .author-block {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+        .author-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            background-color: var(--zenColorBgSecondary);
+            flex-shrink: 0;
+        }
+        .author-info {
+            flex: 1;
+        }
+        .author-name {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: var(--zenColorTextPrimary);
+            text-decoration: none;
+            margin-bottom: 2px;
+            display: inline-block;
+        }
+        .author-stats {
+            font-size: 13px;
+            line-height: 16px;
+            color: var(--zenColorTextSecondary);
+        }
+
+        /* Заголовок */
+        .article-title {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 44px;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+            color: var(--zenColorTextPrimary);
+        }
+
+        /* Мета-информация (дата, просмотры) */
+        .article-meta {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            font-size: 13px;
+            color: var(--zenColorTextSecondary);
+            border-bottom: 1px solid var(--zenColorStrokePrimary);
+            padding-bottom: 16px;
+        }
+        .article-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Содержание статьи */
+        .article-content {
+            font-size: 18px;
+            line-height: 28px;
+            color: var(--zenColorTextPrimary);
+        }
+
+        /* Параграфы */
+        .article-content p {
+            margin: 0 0 20px 0;
+        }
+
+        /* Изображения */
+        .article-image {
+            margin: 32px 0;
+            text-align: center;
+            background: linear-gradient(135deg, var(--zenColorBgSecondary) 0%, #e0e0e0 100%);
+            border-radius: 16px;
+            padding: 20px;
+            border: 1px solid var(--zenColorStrokePrimary);
+        }
+        .article-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            display: block;
+            margin: 0 auto;
+            background-color: #f8f8f8;
+        }
+        .image-caption {
+            font-size: 13px;
+            color: var(--zenColorTextTertiary);
+            margin-top: 12px;
+            font-style: italic;
+        }
+
+        /* Жирный текст в статье */
+        .article-content b {
+            font-weight: 600;
+            color: var(--zenColorTextPrimary);
+        }
+
+        /* Цитаты и выделения */
+        .quote {
+            background: var(--zenColorBgSecondary);
+            border-left: 4px solid #ff5317;
+            padding: 16px 20px;
+            margin: 24px 0;
+            border-radius: 12px;
+            font-style: italic;
+            color: var(--zenColorTextSecondary);
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .article-container {
+                padding: 16px 20px 32px;
+            }
+            .article-title {
+                font-size: 28px;
+                line-height: 36px;
+            }
+            .article-content {
+                font-size: 16px;
+                line-height: 26px;
+            }
+            .author-avatar {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-container">
+        <!-- Блок автора -->
+        <div class="author-block">
+            <div class="author-avatar" style="background-image: url('https://avatars.dzeninfra.ru/get-zen-logos/1640044/pub_5c0f6ad06f88d200aae6651d_5c0f6b0c55af0e00aaf24945/xh');"></div>
+            <div class="author-info">
+                <a href="#" class="author-name" rel="dofollow">Артём Залупенко</a>
+                <div class="author-stats">15,2 тыс подписчиков</div>
+            </div>
+        </div>
+
+        <!-- Заголовок статьи -->
+        <h1 class="article-title">Три самых влиятельных лидера 8«А»</h1>
+
+        <!-- Мета-информация -->
+        <div class="article-meta">
+            <div class="article-meta-item">27 марта 2026</div>
+            <div class="article-meta-item">👁 89,3 тыс просмотров</div>
+            <div class="article-meta-item">⏱ 4 мин чтения</div>
+        </div>
+
+        <!-- Содержание статьи -->
+        <div class="article-content">
+            
+
+            <p>Всем привет. Сегодня мы продолжаем знакомить вас с историей класса и в этом выпуске хотим рассказать о трёх самых влиятельных фигурах 8-го «А». Именно эти люди определяли судьбу класса, вели за собой массы и оставили неизгладимый след в истории школы № 12 города Сарова.</p>
+
+            
+
+            <p><b>Третье место занимает Марина Джангирашвили.</b> Главный идеолог и стратег, Марина сумела создать вокруг себя мощную сеть сторонниц: Куликова Даша, Кудрявцева Вера и др. Под её влияние так же попал всеми известный "Гаврила" - Сергей Гаврилович. Именно Марина разработала знаменитую «Теорему Минета Хуесосовича» - "Если не знаешь, как делать, делай, как знаешь...". Задолго до восхождения Рыжова, она контролировала информационные потоки класса и была тем серым кардиналом, от которого зависело многое. Её называли «Мариной Медичи» школьного коридора за изощрённую политическую игру. После падения режима она сумела избежать серьёзных последствий, искусно сменив тактику и оставшись в истории как загадочная фигура, до конца не понятая современниками. Ходят слухи, что Марина до сих пор управляет классом из подполья.</p>
+
+            <div class="article-image">
+                <img src="марина.jpg" alt="Марина Джангирашвили" width="800" height="450">
+                <div class="image-caption">Марина Джангирашвили — отличница 8-го "A"</div>
+            </div>
+
+            <p><b>Второе место по праву достается Алёне Торбиной - королеве классного кипиша.</b> Мастер по срыванию уроков, стала главным рупором класса. Её острый язык и умение подать любую информацию под нужным для неё углом сделали её незаменимым инструментом влияния. Именно она придумала знаменитый лозунг «Это всё Сухов!» и разработала систему рейтингов популярности, которая десятилетиями определяла иерархию в классе. В отличие от других соратников, Торбина никогда всегда прибегала к открытой конфронтации, предпочитая не работать в тени, дирижируя общественным мнением. Её называли «Турбиной», за что она злилась на Сухова. Поговаривают, что  она влюблена в Сухова - своего главного врага.</p>
+
+            <div class="article-image">
+                <img src="бин.jpg" alt="Алена Торбина" width="317" height="456">
+                <div class="image-caption">Торбина была против размещения своего фото, поэтому держите Мистера Бина</div>
+            </div>
+
+            <div class="quote">
+                «Торбина могла одним словом изменить настроение класса. Её статьи были опаснее любого учебника. Она умела превращать двойку в подвиг, а контрольную — в акт агрессии.»
+                <br>- Из воспоминаний Л. Г. Мамаевой
+            </div>
+
+            <p><b>И, наконец, первая строчка ожидаемо принадлежит Натану Рыжову.</b> Вождь класса, основоположник движения «Пох, ставьте» и неформальный лидер, приведший коллектив к самой разрушительной войне с учителями. Его имя стало символом одной из самых угарных страниц в истории 8-го «А».</p>
+
+            <div class="article-image">
+                <img src="натанчик.jpg" alt="Натан Рыжов" width="400" height="250">
+                <div class="image-caption">Натан Рыжов (род. 2011) — центральная фигура школьной тирании</div>
+            </div>
+
+            <p>Родившийся в соседнем районе, Рыжов после летних каникул сумел превратить маргинальный кружок по списыванию в мощное школьное движение. Используя популистские лозунги, апелляцию к унижению класса после контрольной по алгебре и антиучительскую риторику, он в 2024 году был законно назначен на пост самого смешного и добродушного человека класса. Всего за несколько месяцев Рыжов установил режим тоталитарной диктатуры в кабинете биологии, уничтожив демократические институты (отменил выборы физорга) и начав массовые репрессии против политических оппонентов, прежде всего отличников.</p>
+
+            <p><b>Идеология и милитаризация:</b> В основе рыжовского мировоззрения лежали «теория о шутках» (смеёшься над его шутками — значит, уважаемый человек), агрессивная неприязнь к психологине и концепция «жизненного похуизма» на территории за третьей партой у окна. Эти идеи легли в основу внутренней и внешней политики. Режим форсированно милитаризировал экономику: сбор макулатуры и накопление фантиков позволили быстро нарастить мощь, несмотря на запреты классного руководителя.</p>
+
+            
+
+            <p><b>Величайший подвиг:</b> конец 7-го класса, музыка, окончание урока не за горами, но Натану этого было недостаточно, он хотел домой прямо сейчас, поэтому не раздумовая сиганул в окно, и был таков. После приземления герой получил незначительное ранение в виде повреждения ноги, но это не помешало ему скрыться с глаз своих шокированных одноклассников.
+            <div class="article-image">
+                <img src="окно.jpg" alt="Подвиг" width="800" height="600">
+                <div class="image-caption">Великий подвиг великого Натана</div>
+            </div>
+            <p><b>Политика:</b> Центральное место в политике Рыжова занимало уничтожение целых групп нервных клеток учителей. Итогом его идеологии стало систематическое преследование  около 6 миллионов тгк про Minecraft и Roblox. В школе действовала сеть пропагандических углов, где в идиологию Натана Рыжова были вовлечены многие первоклашки.</p>
+
+
+            <p><b>Союз:</b> К весне 2024 года Рыжов вместе со своим верным последователем и другом Артёмом Суховым создал Противоалённую коалицию для борьбы с Торбиной Алёной.</p>
+
+            <div class="quote">
+                «Триумвират Джангирашвили — Торбина — Рыжов стал для школы самым тяжелым испытанием. Один мыслил, второй направлял, третий действовал. Их разрушительный союз — урок на все времена.»
+                <br>- Из протокола классухи
+            </div>
+
+            <p>Наследие этих трёх лидеров — это урок о том, к каким катастрофическим последствиям приводят тоталитаризм в отдельно взятом классе, расовая (успеваемостная) нетерпимость и культ личности. Их имена навсегда остались в истории школы как символы разных граней зла: хладнокровного расчёта, коварного слова и Натана.</p>
+
+    
+                <div class="image-caption">Так закончилась эпоха. Вечная память тем, кто пострадал от режима.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
